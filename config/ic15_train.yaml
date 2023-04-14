@@ -12,7 +12,7 @@ train:
   backbone : vgg
   syn_dataset: ["synthtext"]
   real_dataset: icdar2015
-  ckpt_path: "/nas/home/gmuffiness/workspace/ocr_related/daintlab-CRAFT-Reimplementation/clean-code/exp/syn_train_report2/CRAFT_clr_amp_50000.pth"
+  ckpt_path: "/home/neeraj/Desktop/IFT6759/IFT6759CRAFT/weights/CRAFT_clr_amp_14000.pth"
   eval_interval: 1000
   batch_size: 48
   st_iter: 0
